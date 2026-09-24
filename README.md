@@ -40,3 +40,13 @@
 
 ## Output
 ![Airtable output](./Screenshots/Airtable%20output.PNG)
+
+## Workflow 04 — AI Lead Qualification & Routing
+
+* **Problem:** Manually reviewing every lead to determine whether it is worth following up on is time-consuming and prone to inconsistent decisions.
+* **Solution:** Analyzes form submissions via AI to automatically score and categorize leads—routing hot leads to immediate alerts and CRM logging, while saving cold leads for record-keeping.
+* **Tools:** n8n Form Trigger, Google Gemini (AI), Code Node (JavaScript), Switch, Airtable, Gmail
+* **Learned:** Integrating LLMs into structured workflows to parse unstructured text into predictable JSON data for conditional routing.
+    
+### Screenshot
+![AI lead classifier](./Screenshots/AI%20lead%20classifier.PNG)
