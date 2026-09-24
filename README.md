@@ -21,3 +21,22 @@
 ### Screenshot
 
 ![Automated Lead Routing(switch gmail workflow)](./Screenshots/Automated%20Lead%20Routing(switch%20gmail%20workflow).PNG)
+
+## Workflow 03 — Lead → CRM Automation
+
+* **Problem:** Manually entering lead data into a CRM is time-consuming and error-prone.
+* **Solution:** Upon form submission, lead details (Name, Email, Phone, Company, Status) are automatically created as a record in Airtable CRM, and an instant email notification is sent out.
+* **Tools:** n8n Form Trigger, Airtable (Create a record), Gmail
+* **Learned:**
+  * How APIs function (request/response workflows, authentication via API keys/OAuth).
+  * Debugging field type mismatches (e.g., array vs. plain values, Airtable field types).
+  * Understanding the difference between "Map Automatically" and "Map Each Column Manually".
+  * Utilizing the Typecast option to automatically format incoming data types.
+ 
+    
+### Screenshot
+
+![Airtable automation](./Screenshots/Airtable%20automation.PNG)
+
+## Output
+![Airtable output](./Screenshots/Airtable%20output.PNG)
