@@ -50,3 +50,13 @@
     
 ### Screenshot
 ![AI lead classifier](./Screenshots/AI%20lead%20classifier.PNG)
+
+## Workflow 05 — RAG Sales Knowledge Agent
+
+* **Problem:** Standard AI models lack company-specific context (such as pricing models, refund rules, and internal policies), often producing generic or inaccurate responses.
+* **Solution:** Ingests internal documents into vector embeddings so an AI Agent can retrieve precise context on demand and deliver accurate, company-aligned answers.
+* **Tools:** n8n Form Trigger, Simple Vector Store, Embeddings Google Gemini, AI Agent, Google Gemini Chat Model
+* **Learned:** Implementing Retrieval-Augmented Generation (RAG), vector embeddings, vector search, and linking workflows using shared memory keys in a tool-based AI architecture.
+
+### Screenshot
+![RAG](./Screenshots/RAG.PNG)
