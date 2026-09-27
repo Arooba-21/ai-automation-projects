@@ -60,3 +60,12 @@
 
 ### Screenshot
 ![RAG](./Screenshots/RAG.PNG)
+
+## Workflow 06 — AI Sales Research Assistant
+
+* **Problem:** Sales reps spend considerable time manually researching prospective client companies on public sources to prepare personalized outreach pitch angles.
+* **Solution:** Uses an AI Agent with tool integration to automatically search Wikipedia for company background, industry, size, and estimate potential automation needs.
+* **Tools: **Chat Trigger, AI Agent, Google Gemini Chat Model, Wikipedia Tool
+* **Learned:** Leveraging AI Agents with external search tools to gather structured research data dynamically without manual manual lookup.
+
+![AI Research Agent](./Screenshots/AI%20Research%20Agent.PNG)
